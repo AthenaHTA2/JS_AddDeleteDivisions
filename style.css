@@ -1,0 +1,31 @@
+.grid{
+    position: fixed;
+    top: 40% ;
+    left: 40% ;
+   /* display: float;
+    justify-content: flex-center;
+    align-items: center;*/
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: 20px;
+    height: 20px;   
+    background-color: blue;
+}
+
+.theButton{
+    background-color: pink;
+    border-radius: 18px;
+    color: black;
+    position: fixed;
+    top: 20% ;
+    left: 40% ;
+    border: 0;
+    width: 150px;
+    height: 50px;
+}
